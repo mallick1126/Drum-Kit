@@ -32,11 +32,11 @@ function makeSound(key) {
       var tom4 = new Audio("sounds/tom-4.mp3");
       tom4.play();
       break;
-    case "g":
+    case "t":
       var kick = new Audio("sounds/kick-bass.mp3");
       kick.play();
       break;
-    case "h":
+    case "u":
       var crash = new Audio("sounds/crash.mp3");
       crash.play();
       break;
@@ -69,3 +69,4 @@ function makeAnimation(pressedKey) {
     activeKey.classList.remove("pressed");
   }, 100);
 }
+
