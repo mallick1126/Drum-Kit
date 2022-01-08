@@ -50,3 +50,12 @@ h1 {
   cursor: pointer;
   transition: all 0.07s ease-out;
 }
+
+.drum p{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  color: white;
+  text-shadow: none
+  
+
+}
